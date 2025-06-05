@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>💛 Palabras de Ánimo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1>🌟 ¡No es el final! 🌟</h1>
+    <div class="quote-card">
+      <p id="frase">Cree en ti mismo, incluso cuando nadie más lo haga.</p>
+      <p id="autor" class="autor">— Anónimo</p>
+      <button onclick="nuevaFrase()">Otra frase</button>
+    </div>
+    <audio id="audio" loop>
+      <source src="dream493.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio.
+    </audio>
+    <button class="music-btn" onclick="toggleMusica()">🎵 Música</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #09ff00;
+  background: url('paisag.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 0;
+}
+
+.container {
+  z-index: 1;
+  max-width: 700px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.quote-card {
+  background-color: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+#frase {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.autor {
+  font-style: italic;
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ffcc00;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ffd633;
+}
+
+.music-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
